@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/maxscheurer/responsefun/archive/{{ version }}.tar.gz
-  sha256: 8601f3441eef0a5cfc48ae78636cacbdc7385c9a469c02341de175f1f1611bee
+  sha256: 77604b9b80fe2dc5bdabe5c77f31276e53e84f82f814e57d0fdb1aeae9879196 
 
 build:
   noarch: python
