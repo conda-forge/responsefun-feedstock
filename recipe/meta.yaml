@@ -1,5 +1,5 @@
 {% set name = "responsefun" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/maxscheurer/responsefun/archive/{{ version }}.tar.gz
-  sha256: fc233613ef34cf3c3c9baf1a984daec8a73c0ccf00abd509abc9172914b56b71
+  sha256: 8601f3441eef0a5cfc48ae78636cacbdc7385c9a469c02341de175f1f1611bee
 
 build:
   noarch: python
@@ -18,7 +18,6 @@ requirements:
   host:
     - python >=3.7
     - setuptools >=61.0
-    - versioningit >=2.0,<3.dev0
     - pip
   run:
     - python >=3.7
