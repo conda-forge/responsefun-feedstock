@@ -7,4 +7,4 @@
 pip install pyscf
 python -c "import pyscf"
 # run responsefun tests
-pytest --pyargs responsefun -k "not slow"
+pytest --pyargs responsefun -k "not slow" -s -v
